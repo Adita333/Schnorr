@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.suai.protocol.SchnorrTest" time="0.422" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Raven\Desktop\Protocolos Probados\Oficial\Schnorr\target\test-classes;C:\Users\Raven\Desktop\Protocolos Probados\Oficial\Schnorr\target\classes;C:\Users\Raven\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\Raven\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\Raven\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Raven\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Raven\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Raven\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Raven\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\Raven\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Raven\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Guatemala"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="MX"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Raven\AppData\Local\Temp\surefire13875719635336605993\surefirebooter-20241015232431718_3.jar C:\Users\Raven\AppData\Local\Temp\surefire13875719635336605993 2024-10-15T23-24-31_334-jvmRun1 surefire-20241015232431718_1tmp surefire_0-20241015232431718_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Raven\Desktop\Protocolos Probados\Oficial\Schnorr\target\test-classes;C:\Users\Raven\Desktop\Protocolos Probados\Oficial\Schnorr\target\classes;C:\Users\Raven\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\Raven\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\Raven\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Raven\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Raven\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Raven\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Raven\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\Raven\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Raven\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Raven"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Raven\Desktop\Protocolos Probados\Oficial\Schnorr"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Raven\AppData\Local\Temp\surefire13875719635336605993\surefirebooter-20241015232431718_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.11+7-LTS-207"/>
+    <property name="user.name" value="Raven"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Raven\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Raven\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.11"/>
+    <property name="user.dir" value="C:\Users\Raven\Desktop\Protocolos Probados\Oficial\Schnorr"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\apache-maven-3.9.8\bin;C:\Users\Raven\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Raven\AppData\Local\Programs\Python\Python312\;C:\Users\Raven\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Raven\AppData\Local\Programs\Python\Python37\;C:\Users\Raven\.cargo\bin;C:\Users\Raven\AppData\Local\Microsoft\WindowsApps;;C:\Users\Raven\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.11+7-LTS-207"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testCalculateS" classname="org.suai.protocol.SchnorrTest" time="0.135">
+    <system-out><![CDATA[Exito: Calculo de S exitoso
+]]></system-out>
+  </testcase>
+  <testcase name="testCalculateX" classname="org.suai.protocol.SchnorrTest" time="0.063">
+    <system-out><![CDATA[Exito: Calculo de X exitoso
+]]></system-out>
+  </testcase>
+  <testcase name="testVerification" classname="org.suai.protocol.SchnorrTest" time="0.104">
+    <system-out><![CDATA[Exito en el intento 1: Verificacion exitosa
+ Autenticacion con valores incorrectos fallida
+Exito en el intento 2: Verificacion exitosa
+ Autenticacion con valores incorrectos fallida
+Exito en el intento 3: Verificacion exitosa
+ Autenticacion con valores incorrectos fallida
+Exito en el intento 4: Verificacion exitosa
+ Autenticacion con valores incorrectos fallida
+Exito en el intento 5: Verificacion exitosa
+ Autenticacion con valores incorrectos fallida
+Exito en el intento 6: Verificacion exitosa
+ Autenticacion con valores incorrectos fallida
+Exito en el intento 7: Verificacion exitosa
+ Autenticacion con valores incorrectos fallida
+Exito en el intento 8: Verificacion exitosa
+ Autenticacion con valores incorrectos fallida
+Exito en el intento 9: Verificacion exitosa
+ Autenticacion con valores incorrectos fallida
+Exito en el intento 10: Verificacion exitosa
+ Autenticacion con valores incorrectos fallida
+]]></system-out>
+  </testcase>
+  <testcase name="testKeyGeneration" classname="org.suai.protocol.SchnorrTest" time="0.071">
+    <system-out><![CDATA[Exito: Generacion de claves exitosa
+]]></system-out>
+  </testcase>
+</testsuite>
